@@ -1,0 +1,115 @@
+/* src/pages/Profile.css */
+.profile-container {
+    margin: 0 auto;
+    padding: 150px 20px; /* Adjust padding for larger section */
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Profile header styles */
+.profile-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Adjusting profile info styling */
+.profile-info {
+    flex: 1;
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 50px;
+    max-width: 700px; /* Increase max width for more space */
+    transform: scale(1.15); /* Slightly decrease scaling */
+}
+
+/* Profile info heading styling */
+.profile-info h1 {
+    margin: 10px 0;
+    font-size: 2.9em; /* Slightly decrease font size */
+}
+
+/* Profile info paragraph styling */
+.profile-info p {
+    margin: 10px 0;
+    font-size: 20px; /* Slightly decrease font size */
+    text-align: justify;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    flex-shrink: 0;
+    transform: scale(1.15); /* Slightly decrease scaling */
+    margin-left: 100px; /* Adjust margin to reduce gap */
+}
+
+/* Image styling */
+.profile-picture img {
+    width: 230px; /* Slightly decrease the size of the profile picture */
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Line separation styling */
+.line-separator {
+    margin: 10px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 80px;
+}
+
+/* Tech Stack remains unchanged */
+.tech-stack {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px 0; /* Increase padding slightly */
+    text-align: center;
+}
+
+.tech-stack h2 {
+    font-size: 3em; /* Slightly decrease font size */
+    margin-bottom: 30px;
+}
+
+.tech-stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Increase the gap between items */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Decreased the size of the tech-item container, logo, and text */
+.tech-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 20px 25px; /* Slightly decrease padding */
+    border-radius: 12px; /* Decrease border-radius */
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    flex-basis: calc(20% - 20px); /* 20% width minus the gap to fit 5 items per row */
+    box-sizing: border-box;
+    transform: scale(1.1); /* Slightly reduce the scaling */
+}
+
+.tech-item img {
+    width: 40px; /* Slightly decrease the logo size */
+    height: 40px;
+    margin-right: 12px; /* Adjust spacing for the smaller logo */
+}
+
+.tech-item span {
+    font-size: 1.2em; /* Slightly decrease the font size of the text */
+}
+
+.tech-item:hover {
+    transform: scale(1.05); /* Slightly decrease the hover effect */
+    background-color: #e6f7ff;
+    border-color: #007bff;
+}

@@ -1,0 +1,80 @@
+/* src/components/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #add8e6; /* Pastel light blue background */
+    padding: 30px;
+    position: relative;
+    border-bottom: 1px solid rgba(173, 216, 230, 0.8); /* Soft border */
+    box-shadow: 
+        0 0 15px rgba(173, 216, 230, 0.7),  /* Light neon blue glow */
+        0 0 30px rgba(173, 216, 230, 0.5);  /* Secondary glow effect */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* src/components/Navbar.css */
+.nav-link {
+    font-family: 'Orbitron', sans-serif;
+    color: black; /* Text color set to black */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    position: relative; /* Make sure position is set to relative */
+    padding: 8px 12px;
+    z-index: 1; /* Ensures the text is above other elements */
+    margin-top: 12px;
+
+}
+
+/* Active state styling */
+.nav-link.active {
+    color: black;
+}
+
+.nav-link.active::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 40px;
+    background-size: contain;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    display: block; /* Make sure the pseudo-element is displayed */
+}
+
+
+.nav-button {
+    background-color: #e0f7fa; /* Light pastel color for buttons */
+    color: black;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.nav-button:hover {
+    color: #007bff;
+    box-shadow: 0 0 15px rgba(173, 216, 230, 0.8); /* Glow effect on hover */
+}
