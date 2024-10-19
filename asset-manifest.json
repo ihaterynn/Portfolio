@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.94360b67.css",
-    "main.js": "/Portfolio/static/js/main.fb2bda40.js",
+    "main.css": "/Portfolio/static/css/main.88dea351.css",
+    "main.js": "/Portfolio/static/js/main.0004015d.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Spark Again Collab _ Aimer.mp4": "/Portfolio/static/media/Spark Again Collab _ Aimer.41515b3c3f7282b2a5f2.mp4",
     "static/media/Deadlift.mp4": "/Portfolio/static/media/Deadlift.1e2d94c9c88c60b5c7e0.mp4",
@@ -23,12 +23,12 @@
     "static/media/9.jpg": "/Portfolio/static/media/9.4cc99d1be3677e83a370.jpg",
     "static/media/LinkedInLogo.png": "/Portfolio/static/media/LinkedInLogo.68ac41e1459436bfd38f.png",
     "index.html": "/Portfolio/index.html",
-    "main.94360b67.css.map": "/Portfolio/static/css/main.94360b67.css.map",
-    "main.fb2bda40.js.map": "/Portfolio/static/js/main.fb2bda40.js.map",
+    "main.88dea351.css.map": "/Portfolio/static/css/main.88dea351.css.map",
+    "main.0004015d.js.map": "/Portfolio/static/js/main.0004015d.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94360b67.css",
-    "static/js/main.fb2bda40.js"
+    "static/css/main.88dea351.css",
+    "static/js/main.0004015d.js"
   ]
 }
