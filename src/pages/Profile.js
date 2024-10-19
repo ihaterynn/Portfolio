@@ -11,6 +11,7 @@ import ReactLogo from '../assets/profile/ReactLogo.png';
 import ReactNativeLogo from '../assets/profile/ReactNativeLogo.png';
 import TensorflowLogo from '../assets/profile/TensorflowLogo.png';
 import KerasLogo from '../assets/profile/KerasLogo.png';
+import ResumeImage from '../assets/profile/Resume.png'; // Import the resume image
 
 const Profile = () => {
     const ryanRef = useRef(null);
@@ -29,18 +30,18 @@ const Profile = () => {
                         index++;
                         if (index > text.length) {
                             direction = 'deleting';
-                            animationFrameId = setTimeout(animate, 2000); // Pause for 2 seconds before deleting
+                            animationFrameId = setTimeout(animate, 2000);
                         } else {
-                            animationFrameId = setTimeout(animate, 300); // Typing speed
+                            animationFrameId = setTimeout(animate, 300);
                         }
                     } else {
                         index--;
                         ryanRef.current.textContent = text.slice(0, index);
                         if (index === 0) {
                             direction = 'typing';
-                            animationFrameId = setTimeout(animate, 1000); // Pause for 1 second before typing again
+                            animationFrameId = setTimeout(animate, 1000);
                         } else {
-                            animationFrameId = setTimeout(animate, 200); // Deleting speed
+                            animationFrameId = setTimeout(animate, 200);
                         }
                     }
                 }
@@ -48,7 +49,6 @@ const Profile = () => {
             
             animate();
 
-            // Cleanup function
             return () => {
                 if (animationFrameId) {
                     clearTimeout(animationFrameId);
@@ -112,6 +112,16 @@ const Profile = () => {
                         <img src={KerasLogo} alt="Keras" />
                         <span>Keras</span>
                     </div>
+                </div>
+            </div>
+
+            <hr className="line-separator" />
+
+            {/* Resume Section */}
+            <div className="resume-section">
+                <h2>Resume</h2>
+                <div className="resume-card">
+                    <img src={ResumeImage} alt="Resume" className="resume-image" />
                 </div>
             </div>
         </div>

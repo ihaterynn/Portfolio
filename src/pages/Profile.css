@@ -1,7 +1,7 @@
 /* src/pages/Profile.css */
 .profile-container {
     margin: 0 auto;
-    padding: 150px 20px; /* Adjust padding for larger section */
+    padding: 120px 10px; /* Adjust padding for larger section */
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
@@ -62,54 +62,96 @@
     margin-top: 80px;
 }
 
-/* Tech Stack remains unchanged */
+/* Tech Stack Section Styling */
 .tech-stack {
     width: 100%;
-    background-color: #f9f9f9;
-    padding: 20px 0; /* Increase padding slightly */
+    background-color: #f0fafb94;
+    padding: 5px 0; /* Further decrease padding to reduce white space */
     text-align: center;
+    margin-bottom: -70px; /* Ensure no additional margin below */
 }
 
 .tech-stack h2 {
-    font-size: 3em; /* Slightly decrease font size */
-    margin-bottom: 30px;
+    font-size: 2.5em; /* Slightly decrease font size */
+    margin-bottom: 10px; /* Reduce the bottom margin for less space */
 }
 
 .tech-stack-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px; /* Increase the gap between items */
+    gap: 30px; /* Adjust the gap between items */
     max-width: 1000px;
     margin: 0 auto;
+    padding-bottom: 0; /* Prevent padding at the bottom */
 }
 
-/* Decreased the size of the tech-item container, logo, and text */
+/* Adjusted the size of the tech-item container, logo, and text */
 .tech-item {
     display: flex;
     align-items: center;
     border: 1px solid #e0e0e0;
-    padding: 20px 25px; /* Slightly decrease padding */
-    border-radius: 12px; /* Decrease border-radius */
+    padding: 15px 20px; /* Reduce padding for a more compact look */
+    border-radius: 10px; /* Slightly reduce border-radius */
     background-color: #fff;
     transition: transform 0.3s ease;
-    flex-basis: calc(20% - 20px); /* 20% width minus the gap to fit 5 items per row */
+    flex-basis: calc(20% - 20px); /* 20% width minus the gap */
     box-sizing: border-box;
-    transform: scale(1.1); /* Slightly reduce the scaling */
 }
 
 .tech-item img {
-    width: 40px; /* Slightly decrease the logo size */
-    height: 40px;
-    margin-right: 12px; /* Adjust spacing for the smaller logo */
+    width: 35px; /* Slightly reduce the logo size */
+    height: 35px;
+    margin-right: 10px; /* Adjust spacing for the smaller logo */
 }
 
 .tech-item span {
-    font-size: 1.2em; /* Slightly decrease the font size of the text */
+    font-size: 1.1em; /* Decrease the font size of the text */
 }
 
 .tech-item:hover {
-    transform: scale(1.05); /* Slightly decrease the hover effect */
+    transform: scale(1.03); /* Further reduce the hover effect */
     background-color: #e6f7ff;
     border-color: #007bff;
 }
+
+/* Resume Section Styling */
+.resume-section {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.resume-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px; /* Increase space below the title */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Increased the size of the resume card */
+.resume-card {
+    width: 500px; /* Increase width */
+    height: 700px; /* Increase height */
+    margin: 0 auto;
+    position: relative;
+    animation: float 6s ease-in-out infinite;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
+}
+
+/* Increase size of resume image */
+.resume-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Animation for floating effect */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
