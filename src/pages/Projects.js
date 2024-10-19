@@ -1,3 +1,4 @@
+// src/pages/Projects.js
 import React from 'react';
 import './Projects.css';
 
@@ -12,7 +13,6 @@ import NutriAIDAnalysisDemo from '../assets/projects/NutriAID/AnalysisDemo.gif';
 const Projects = () => {
     return (
         <div className="projects-container">
-
             <section className="project-section snackly-section">
                 <div className="snackly-content">
                     <div className="snackly-description">
@@ -22,8 +22,8 @@ const Projects = () => {
                             <p>
                                 Snackly is a mobile application that integrates cutting-edge technologies to enhance
                                 the user experience in tracking nutritional intake. The app employs a hybrid deep learning neural network 
-                                model for object detection, for feature extracti and global context analysis. 
-                                Developed with React Native, Snackly connects to Flask Server for backend services. 
+                                model for object detection, feature extraction, and global context analysis. 
+                                Developed with React Native, Snackly connects to a Flask Server for backend services. 
                                 This solution enables health-conscious individuals to monitor their diet closely.
                             </p>
                         </div>
@@ -35,10 +35,14 @@ const Projects = () => {
             </section>
             <hr className="project-separator" />
 
-
             <section className="project-section">
                 <div className="centered-title">
                     <img src={OrijinLogo} alt="Orijin Logo" className="orijin-logo" />
+                    <div className="orijin-visit-site-button-container">
+                        <button className="orijin-visit-site-button" onClick={() => window.open('https://ihaterynn.github.io/Orijin/', '_blank')}>
+                            Visit Site
+                        </button>
+                    </div>
                     <p className="project-hookline">Transitioning traditional Gaming DRM using Web3 Solutions represented by an OnChain Game Marketplace</p>
                     <p className="project-hookline">P/S not my voiceover</p>
                 </div>
@@ -59,11 +63,16 @@ const Projects = () => {
                     gaming economy.
                 </p>
             </section>
-            <hr className="project-separator" />
+            <hr className="project-separator" /> 
 
             <section className="project-section">
                 <div className="centered-title">
                     <img src={NutriAIDLogo} alt="NutriAID Logo" className="nutriaid-logo" />
+                    <div className="nutriaid-visit-site-button-container">
+                        <button className="nutriaid-visit-site-button" onClick={() => window.open('https://ihaterynn.github.io/NutriAID/', '_blank')}>
+                            Visit Site
+                        </button>
+                    </div>
                     <p className="project-hookline">Elevating Dietary Choices with NutriAID using OCR Technology!</p>
                 </div>
                 <div>

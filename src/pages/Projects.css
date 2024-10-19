@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative; /* Make positioning relative to the section */
 }
 
 .project-description {
@@ -86,7 +87,6 @@
     margin-bottom: 20px;
 }
 
-
 .orijin-logo {
     max-width: 250px;
     margin: 0 auto 20px auto; 
@@ -99,6 +99,36 @@
     margin: 0 auto 15px auto;
     display: block;
 }
+
+/* Orijin Visit Site Button Styles */
+.orijin-visit-site-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; /* Add some margin for spacing */
+    margin-right: 100px;
+}
+
+.orijin-visit-site-button {
+    background: linear-gradient(45deg, #f54af2, #5367ea);
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.orijin-visit-site-button:hover {
+    box-shadow: 0 0 20px rgba(200, 44, 211, 0.773);
+    transform: scale(1.05);
+}
+
 
 .nutriaid-logo {
     max-width: 350px;
@@ -114,6 +144,37 @@
     margin: 0 auto 15px auto;
     display: block;
 }
+
+
+.nutriaid-visit-site-button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px; 
+    margin-right: 100px;
+}
+
+.nutriaid-visit-site-button {
+    background: linear-gradient(90deg, #00a651 0%, #8dc63f 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nutriaid-visit-site-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); 
+}
+
 
 .project-separator {
     border: none;
