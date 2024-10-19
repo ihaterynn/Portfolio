@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ba571e03.css",
+    "main.js": "/Portfolio/static/js/main.fb82a1fd.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Spark Again Collab _ Aimer.mp4": "/Portfolio/static/media/Spark Again Collab _ Aimer.41515b3c3f7282b2a5f2.mp4",
+    "static/media/Deadlift.mp4": "/Portfolio/static/media/Deadlift.1e2d94c9c88c60b5c7e0.mp4",
+    "static/media/Squat.mp4": "/Portfolio/static/media/Squat.f01f30325e731ec20a7c.mp4",
+    "static/media/OrijinDemo.mp4": "/Portfolio/static/media/OrijinDemo.d6a71f21df710fa53a23.mp4",
+    "static/media/Bench.mp4": "/Portfolio/static/media/Bench.cbcfcbd74da71b04da94.mp4",
+    "static/media/ProfileDemo.gif": "/Portfolio/static/media/ProfileDemo.a9842c248678ee0173e8.gif",
+    "static/media/SnacklyDemoGIF.gif": "/Portfolio/static/media/SnacklyDemoGIF.6dbf7e4f4bac0c8e4e19.gif",
+    "static/media/AnalysisDemo.gif": "/Portfolio/static/media/AnalysisDemo.adc3a0cb1522f0d0ed0c.gif",
+    "static/media/Logo2.png": "/Portfolio/static/media/Logo2.a6ea888bb7e9fedd2433.png",
+    "static/media/HomeScreen.jpg": "/Portfolio/static/media/HomeScreen.b8d0ca1e9261e52f3e8f.jpg",
+    "static/media/cloud.png": "/Portfolio/static/media/cloud.0cb085408df8c2b93962.png",
+    "static/media/Logo.png": "/Portfolio/static/media/Logo.505948b469dbf624f753.png",
+    "static/media/JavaLogo.png": "/Portfolio/static/media/JavaLogo.1c2ae6f23b520e06b67d.png",
+    "static/media/PythonLogo.png": "/Portfolio/static/media/PythonLogo.c828af7d0a97f43e991f.png",
+    "static/media/9.jpg": "/Portfolio/static/media/9.4cc99d1be3677e83a370.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.ba571e03.css.map": "/Portfolio/static/css/main.ba571e03.css.map",
+    "main.fb82a1fd.js.map": "/Portfolio/static/js/main.fb82a1fd.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba571e03.css",
+    "static/js/main.fb82a1fd.js"
+  ]
+}
