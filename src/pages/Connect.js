@@ -32,7 +32,7 @@ const Connect = () => {
           </a>
         </div>
         <div className="social-item">
-          <a href="https://sptfy.com/asianryan" target="_blank" rel="noopener noreferrer">
+          <a href="https://open.spotify.com/user/30vxro1a8w9a9nh6sqoetyffh?si=9f7e6f0c48474ac1" target="_blank" rel="noopener noreferrer">
             <img src={SpotifyLogo} alt="Spotify" className="social-icon" />
             <p>Spotify</p>
           </a>
