@@ -1,8 +1,6 @@
-// src/pages/Connect.js
 import React from 'react';
-import './Connect.css'; // Import the CSS file for styling
+import './Connect.css';
 
-// Import images from the assets folder
 import LinkedInLogo from '../assets/connect/LinkedInLogo.png';
 import GithubLogo from '../assets/connect/GithubLogo.png';
 import InstaLogo from '../assets/connect/InstaLogo.png';

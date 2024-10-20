@@ -1,16 +1,11 @@
-/* src/pages/Hobbies.css */
-
-/* General styling for the container */
 .hobbies-container {
     padding: 20px;
 }
 
-/* Styling for each hobby section */
 .hobby-section {
     margin-bottom: 40px;
 }
 
-/* Title styling */
 .drumming-title,
 .powerlifting-title {
     font-size: 40px;
@@ -27,7 +22,7 @@
     margin-top: 80px;
 }
 
-/* Subtitle styling */
+
 .drumming-subtitle {
     font-style: italic;
     text-align: center;
@@ -35,7 +30,6 @@
     margin-top: 10px;
 }
 
-/* Media styling (videos, images) */
 .hobby-media {
     width: 100%;
     max-width: 1200px;
@@ -45,7 +39,6 @@
     margin-right: auto;
 }
 
-/* Powerlifting-specific styles */
 .powerlifting-videos {
     display: flex;
     justify-content: space-around;
@@ -54,18 +47,17 @@
 }
 
 .powerlifting-media {
-    width: 30%; /* Each video occupies one-third of the container */
+    width: 30%; 
 }
 
 .powerlifting-stats {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 10px; /* Lessened gap between each stat */
+    margin-bottom: 10px; 
     color: #333;
 }
 
-/* Description styling */
 .hobby-description {
     font-size: 22px; 
     line-height: 1.8;
@@ -74,7 +66,6 @@
     margin: 30px auto 20px auto; 
 }
 
-/* Line separation styling */
 .hobby-separator {
     border: none;
     height: 1px;

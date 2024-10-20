@@ -10,12 +10,11 @@ import SquatVideo from '../assets/hobbies/Powerlifting/Squat.mp4';
 const Hobbies = () => {
     return (
         <div className="hobbies-container">
-            {/* Drumming Section */}
             <section className="hobby-section drumming-section">
                 <h2 className="drumming-title">Drumming</h2>
                 <h3 className="drumming-subtitle">P/S I'm the one on the right</h3>
                 <div>
-                    {/* Drums video */}
+                  
                     <video className="hobby-media" controls>
                         <source src={DrumsVideo} type="video/mp4" />
                         Your browser does not support the video tag.
@@ -33,8 +32,6 @@ const Hobbies = () => {
                 </p>
             </section>
             <hr className="hobby-separator" />
-
-            {/* Powerlifting Section */}
             <section className="hobby-section powerlifting-section">
                 <h2 className="powerlifting-title">Powerlifting</h2>
                 <div className="powerlifting-videos">

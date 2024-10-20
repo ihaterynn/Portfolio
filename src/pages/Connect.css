@@ -1,4 +1,3 @@
-
   .connect-container {
     text-align: center;
   }
@@ -13,8 +12,8 @@
   .link-row {
     display: flex;
     justify-content: center;
-    gap: 100px; /* Adjust the gap as needed */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 100px; 
+    flex-wrap: wrap; 
     margin-top: 30px;
   }
   
@@ -31,13 +30,13 @@
   }
   
   .social-item a:hover {
-    transform: scale(1.1); /* Slight zoom on hover */
+    transform: scale(1.1); 
   }
   
   .social-icon {
-    width: 150px; /* Increase the size of the icons */
+    width: 150px; 
     height: 150px;
-    margin-bottom: 10px; /* Space between the icon and the label */
+    margin-bottom: 10px; 
   }
   
   .social-item p {

@@ -1,13 +1,11 @@
-/* src/pages/Profile.css */
 .profile-container {
     margin: 0 auto;
-    padding: 120px 10px; /* Adjust padding for larger section */
+    padding: 120px 10px; 
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
 }
 
-/* Profile header styles */
 .profile-header {
     display: flex;
     justify-content: center;
@@ -15,45 +13,41 @@
     margin-bottom: 30px;
 }
 
-/* Adjusting profile info styling */
 .profile-info {
     flex: 1;
     text-align: left;
     margin-right: 30px;
     margin-left: 50px;
-    max-width: 700px; /* Increase max width for more space */
-    transform: scale(1.15); /* Slightly decrease scaling */
+    max-width: 700px; 
+    transform: scale(1.15); 
 }
 
-/* Profile info heading styling */
+
 .profile-info h1 {
     margin: 10px 0;
-    font-size: 2.9em; /* Slightly decrease font size */
+    font-size: 2.9em; 
 }
 
-/* Profile info paragraph styling */
 .profile-info p {
     margin: 10px 0;
-    font-size: 20px; /* Slightly decrease font size */
+    font-size: 20px; 
     text-align: justify;
 }
 
-/* Profile picture styling */
 .profile-picture {
     flex-shrink: 0;
-    transform: scale(1.15); /* Slightly decrease scaling */
-    margin-left: 100px; /* Adjust margin to reduce gap */
+    transform: scale(1.15); 
+    margin-left: 100px; 
 }
 
 /* Image styling */
 .profile-picture img {
-    width: 230px; /* Slightly decrease the size of the profile picture */
+    width: 230px;
     height: 230px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-/* Line separation styling */
 .line-separator {
     margin: 10px 0;
     border: 0;
@@ -62,60 +56,57 @@
     margin-top: 80px;
 }
 
-/* Tech Stack Section Styling */
 .tech-stack {
     width: 100%;
     background-color: #f0fafb94;
-    padding: 5px 0; /* Further decrease padding to reduce white space */
+    padding: 5px 0; 
     text-align: center;
-    margin-bottom: -70px; /* Ensure no additional margin below */
+    margin-bottom: -70px; 
 }
 
 .tech-stack h2 {
-    font-size: 2.5em; /* Slightly decrease font size */
-    margin-bottom: 10px; /* Reduce the bottom margin for less space */
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
 }
 
 .tech-stack-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* Adjust the gap between items */
+    gap: 30px; 
     max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 0; /* Prevent padding at the bottom */
+    padding-bottom: 0; 
 }
 
-/* Adjusted the size of the tech-item container, logo, and text */
 .tech-item {
     display: flex;
     align-items: center;
     border: 1px solid #e0e0e0;
-    padding: 15px 20px; /* Reduce padding for a more compact look */
-    border-radius: 10px; /* Slightly reduce border-radius */
+    padding: 15px 20px; 
+    border-radius: 10px; 
     background-color: #fff;
     transition: transform 0.3s ease;
-    flex-basis: calc(20% - 20px); /* 20% width minus the gap */
+    flex-basis: calc(20% - 20px); 
     box-sizing: border-box;
 }
 
 .tech-item img {
-    width: 35px; /* Slightly reduce the logo size */
+    width: 35px; 
     height: 35px;
-    margin-right: 10px; /* Adjust spacing for the smaller logo */
+    margin-right: 10px; 
 }
 
 .tech-item span {
-    font-size: 1.1em; /* Decrease the font size of the text */
+    font-size: 1.1em;
 }
 
 .tech-item:hover {
-    transform: scale(1.03); /* Further reduce the hover effect */
+    transform: scale(1.03); 
     background-color: #e6f7ff;
     border-color: #007bff;
 }
 
-/* Resume Section Styling */
 .resume-section {
     width: 100%;
     text-align: center;
@@ -124,15 +115,14 @@
 
 .resume-section h2 {
     font-size: 2.5em;
-    margin-bottom: 50px; /* Increase space below the title */
+    margin-bottom: 50px; 
     color: #333;
     font-weight: bold;
 }
 
-/* Increased the size of the resume card */
 .resume-card {
-    width: 500px; /* Increase width */
-    height: 700px; /* Increase height */
+    width: 500px;
+    height: 700px; 
     margin: 0 auto;
     position: relative;
     animation: float 6s ease-in-out infinite;
@@ -142,14 +132,12 @@
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);
 }
 
-/* Increase size of resume image */
 .resume-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* Animation for floating effect */
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }

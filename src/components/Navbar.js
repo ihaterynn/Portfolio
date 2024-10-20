@@ -1,8 +1,7 @@
-// src/components/Navbar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import cloudImage from '../assets/cloud.png'; // Import the cloud image
+import cloudImage from '../assets/cloud.png'; 
 
 const Navbar = () => {
     return (
@@ -19,10 +18,10 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                         backgroundImage: isActive ? `url(${cloudImage})` : 'none',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center -4px', // Keep the cloud at the desired position
+                        backgroundPosition: 'center -4px', 
                         backgroundSize: 'cover',
-                        paddingTop: isActive ? '35px' : '15px', // Add extra top padding when active
-                        paddingBottom: '15px', // Maintain bottom padding
+                        paddingTop: isActive ? '35px' : '15px', 
+                        paddingBottom: '15px', 
                         paddingLeft: '15px',
                         paddingRight: '15px',
                     })}
@@ -36,10 +35,10 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                         backgroundImage: isActive ? `url(${cloudImage})` : 'none',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center -4px', // Keep the cloud at the desired position
+                        backgroundPosition: 'center -4px', 
                         backgroundSize: 'cover',
-                        paddingTop: isActive ? '35px' : '15px', // Add extra top padding when active
-                        paddingBottom: '15px', // Maintain bottom padding
+                        paddingTop: isActive ? '35px' : '15px', 
+                        paddingBottom: '15px', 
                         paddingLeft: '15px',
                         paddingRight: '15px',
                     })}
@@ -54,10 +53,10 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                         backgroundImage: isActive ? `url(${cloudImage})` : 'none',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPosition: 'center -4px', // Keep the cloud at the desired position
+                        backgroundPosition: 'center -4px', 
                         backgroundSize: 'cover',
-                        paddingTop: isActive ? '35px' : '15px', // Add extra top padding when active
-                        paddingBottom: '15px', // Maintain bottom padding
+                        paddingTop: isActive ? '35px' : '15px', 
+                        paddingBottom: '15px', 
                         paddingLeft: '15px',
                         paddingRight: '15px',
                     })}

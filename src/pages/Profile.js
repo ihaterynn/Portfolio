@@ -1,8 +1,6 @@
-// src/pages/Profile.js
 import React, { useEffect, useRef } from 'react';
-import './Profile.css'; // Import the CSS file for styling
+import './Profile.css'; 
 
-// Import images from the assets folder
 import ProfilePicture from '../assets/profile/9.jpg';
 import PythonLogo from '../assets/profile/PythonLogo.png';
 import JavaLogo from '../assets/profile/JavaLogo.png';
@@ -11,7 +9,7 @@ import ReactLogo from '../assets/profile/ReactLogo.png';
 import ReactNativeLogo from '../assets/profile/ReactNativeLogo.png';
 import TensorflowLogo from '../assets/profile/TensorflowLogo.png';
 import KerasLogo from '../assets/profile/KerasLogo.png';
-import ResumeImage from '../assets/profile/Resume.png'; // Import the resume image
+import ResumeImage from '../assets/profile/Resume.png'; 
 
 const Profile = () => {
     const ryanRef = useRef(null);
@@ -64,7 +62,7 @@ const Profile = () => {
         <div className="profile-container">
             <div className="profile-header">
                 <div className="profile-info">
-                    <h1>Hey, call me <span ref={ryanRef}></span></h1> {/* Animated "Ryan!" */}
+                    <h1>Hey, call me <span ref={ryanRef}></span></h1>
                     <p>Final Year Computer Science Degree Student at Sunway University</p>
                     <p>
                         Aspiring AI engineer with an interest in Blockchain, specializing in deep learning with a focus on
@@ -117,7 +115,7 @@ const Profile = () => {
 
             <hr className="line-separator" />
 
-            {/* Resume Section */}
+    
             <div className="resume-section">
                 <h2>Resume</h2>
                 <div className="resume-card">

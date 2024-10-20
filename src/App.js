@@ -1,6 +1,5 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'; // Import Navigate for redirection
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'; 
 import Navbar from './components/Navbar';
 import Profile from './pages/Profile';
 import Projects from './pages/Projects';
@@ -13,7 +12,7 @@ const App = () => {
             <Navbar />
             <div className="content">
                 <Routes>
-                    <Route path="/" element={<Navigate to="/profile" />} /> {/* Redirect root to /profile */}
+                    <Route path="/" element={<Navigate to="/profile" />} /> 
                     <Route path="/profile" element={<Profile />} /> 
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/hobbies" element={<Hobbies />} />
